@@ -1,0 +1,90 @@
+@import "../../common/colors.scss";
+
+.watchlist-section {
+  padding: 20px;
+  background: $primari-color;
+  color: $font-primary;
+  text-align: center;
+}
+
+.watchlist-title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.watchlist-category {
+  margin-bottom: 20px;
+}
+
+.watchlist-item {
+  background: $secondary-color;
+  padding: 12px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+  margin: 10px;
+}
+
+.watchlist-item:hover {
+  transform: scale(1.05);
+}
+
+.watchlist-poster {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.watchlist-info {
+  padding: 10px;
+  width: 100%;
+}
+
+.watchlist-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.movie-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: $font-secondary;
+  flex: 1;
+  text-align: left;
+}
+
+.imdb-rating {
+  font-size: 14px;
+  font-weight: bold;
+  color: gold;
+  text-align: right;
+}
+
+.delete-button {
+  background: red;
+  color: $font-primary;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+  width: 100%;
+}
+
+.delete-button:hover {
+  background: darkred;
+}
+
+.empty-message {
+  font-size: 18px;
+  color: lighten($font-primary, 40%);
+  margin-top: 20px;
+}

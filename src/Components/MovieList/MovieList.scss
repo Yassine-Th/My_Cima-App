@@ -1,0 +1,63 @@
+@import "../../common/colors.scss";
+
+.movie-wrapper {
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: $primari-color;
+}
+
+.movie-list,
+.show-list {
+  margin-bottom: 40px;
+  padding: 20px;
+  background: $secondary-color;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movie-container,
+.show-container {
+  width: 100%;
+  position: relative;
+}
+
+.ntf-error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: $font-secondary;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+  background: rgba(121, 184, 243, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  color: $font-primary;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .movie-wrapper {
+    padding: 10px;
+  }
+  
+  .movie-list,
+  .show-list {
+    padding: 15px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  .ntf-error {
+    font-size: 16px;
+    padding: 15px;
+  }
+}

@@ -1,0 +1,86 @@
+
+@import "../common/colors.scss";
+
+.register-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: $primari-color;
+}
+
+.register-card {
+  width: 100%;
+  max-width: 28rem; /* 448px */
+  padding: 2rem; /* 32px */
+  background-color: $secondary-color;
+  border-radius: 0.375rem; /* 6px */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.register-heading {
+  font-size: 1.5rem; /* 24px */
+  font-weight: bold;
+  text-align: center;
+  color: $font-primary;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* 24px */
+}
+
+.register-label {
+  font-size: 0.875rem; /* 14px */
+  font-weight: 500;
+  color: $font-primary;
+}
+
+.register-input {
+  width: 100%;
+  padding: 0.5rem 0.75rem; /* 8px 12px */
+  margin-top: 0.25rem; /* 4px */
+  border: 1px solid #d1d5db; /* gray-300 */
+  border-radius: 0.375rem; /* 6px */
+  background-color: $secondary-color;
+  color: $font-primary;
+  font-size: 0.875rem; /* 14px */
+}
+
+.register-input:focus {
+  outline: none;
+  border-color: #6366f1; /* indigo-500 */
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.5); /* indigo-500 with opacity */
+}
+
+.register-button {
+  width: 100%;
+  padding: 0.5rem 1rem; /* 8px 16px */
+  background-color: #4f46e5; /* indigo-600 */
+  color: $font-primary;
+  font-weight: 500;
+  border-radius: 0.375rem; /* 6px */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #4338ca; /* indigo-700 */
+}
+
+.register-link {
+  font-size: 0.875rem; /* 14px */
+  font-weight: 500;
+  color: #4f46e5; /* indigo-600 */
+  text-decoration: none;
+}
+
+.register-link:hover {
+  color: #4338ca; /* indigo-700 */
+}
+
+.register-text {
+  font-size: 0.875rem; /* 14px */
+  color: $font-secondary;
+}

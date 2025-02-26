@@ -1,0 +1,98 @@
+@import "../../common/colors.scss";
+
+.header {
+  background-color: $secondary-color;
+  height: 72px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.logo {
+  color: $font-secondary;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.user-image,
+.user-image img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid $font-secondary;
+}
+
+.search-bar {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+
+  form {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+
+    button {
+      padding: 0px 12px;
+      font-size: 20px;
+      cursor: pointer;
+      height: 40px;
+      background: $font-secondary;
+      color: $font-primary;
+      border: none;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: lighten($font-secondary, 10%);
+    }
+  }
+
+  input {
+    font-size: 18px;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+    background: transparent;
+    color: $font-primary;
+  }
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-name {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: $font-secondary;
+}
+
+.user-logout {
+  margin-left: 14px;
+}
+
+.watchlist-link {
+  a {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: $font-secondary;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: lighten($font-secondary, 10%);
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "Users": [
+    {
+      "id": "a05e",
+      "username": "Admin",
+      "email": "dd@dd.com",
+      "password": "xxxxxxxx",
+      "token": "augsklxw6oqm73k85nt",
+      "role": "admin"
+    },
+    {
+      "id": "5702",
+      "username": "Yassine",
+      "email": "yy@yy.com",
+      "password": "yyyyyyyy",
+      "token": "0x5bmxdfsqbim73rndxp",
+      "role": "user"
+    },
+    {
+      "id": "a4f4",
+      "username": "Ali",
+      "email": "aa@aa.com",
+      "password": "aaaaaaaa",
+      "token": "5c3i53klq8qm7c77j3w",
+      "role": "user"
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "65c5",
+      "userId": "5702",
+      "movieId": "tt0304141",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_SX300.jpg",
+      "imdbRating": "7.9",
+      "type": "movie"
+    },
+    {
+      "id": "ee97",
+      "userId": "5702",
+      "movieId": "tt1201607",
+      "title": "Harry Potter and the Deathly Hallows: Part 2",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTA1Mzc2N2ItZWRiNS00MjQzLTlmZDQtMjU0NmY1YWRkMGQ4XkEyXkFqcGc@._V1_SX300.jpg",
+      "imdbRating": "8.1",
+      "type": "movie"
+    },
+    {
+      "id": "9f3e",
+      "userId": "a4f4",
+      "movieId": "tt0108778",
+      "title": "Friends",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTU2YmM5ZjctOGVlMC00YTczLTljM2MtYjhlNGI5YWMyZjFkXkEyXkFqcGc@._V1_SX300.jpg",
+      "imdbRating": "8.9",
+      "type": "series"
+    },
+    {
+      "id": "cb5c",
+      "userId": "a4f4",
+      "movieId": "tt0241527",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNTU1MzgyMDMtMzBlZS00YzczLThmYWEtMjU3YmFlOWEyMjE1XkEyXkFqcGc@._V1_SX300.jpg",
+      "imdbRating": "7.7",
+      "type": "movie"
+    },
+    {
+      "id": "2b9a",
+      "userId": "a4f4",
+      "movieId": "tt0304141",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_SX300.jpg",
+      "imdbRating": "7.9",
+      "type": "movie"
+    },
+    {
+      "id": "1809",
+      "userId": "a4f4",
+      "movieId": "tt0295297",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGJhM2M2MWYtZjIzMC00MDZmLThkY2EtOWViMDhhYjRhMzk4XkEyXkFqcGc@._V1_SX300.jpg",
+      "imdbRating": "7.4",
+      "type": "movie"
+    }
+  ]
+}
