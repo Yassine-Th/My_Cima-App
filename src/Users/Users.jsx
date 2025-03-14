@@ -65,7 +65,7 @@ const Users = () => {
               <td>{user.role}</td>
               <td>
                 <button onClick={() => handleShow(user.id)}>Details</button>
-                <button onClick={() => handleDelete(user.id)}>Delete</button>
+                <button className="del" onClick={() => handleDelete(user.id)}>Delete</button>
               </td>
             </tr>
           ))}

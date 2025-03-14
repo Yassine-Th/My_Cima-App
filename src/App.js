@@ -14,6 +14,7 @@ import "slick-carousel/slick/slick-theme.css";
 import WatchList from "./Components/WatchList/WatchList.jsx";
 import Users from "./Users/Users.jsx";
 import UserDetail from "./Users/UserDetails.jsx";
+import BuyMovie from "./Components/Buy Movie/BuyMovie.jsx";
 
 function App() {
   const [isAuthorized, setIsAuthorized] = useState(false);
@@ -39,6 +40,7 @@ function App() {
                 <Route path="/watchlist" element={<WatchList />} />
                 <Route path="/users" element={<Users />} />
                 <Route path="/user/:id" element={<UserDetail />} />
+                <Route path="/buy/:movieId" element={<BuyMovie />} />
 
                 <Route path="/*" element={<NotFount />} />
               </>

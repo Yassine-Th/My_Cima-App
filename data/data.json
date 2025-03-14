@@ -54,16 +54,70 @@
       "type": "series"
     },
     {
-      "id": "cb5c",
+      "id": "fe0a",
       "userId": "a4f4",
-      "movieId": "tt0241527",
-      "title": "Harry Potter and the Sorcerer's Stone",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNTU1MzgyMDMtMzBlZS00YzczLThmYWEtMjU3YmFlOWEyMjE1XkEyXkFqcGc@._V1_SX300.jpg",
-      "imdbRating": "7.7",
+      "movieId": "tt1375666",
+      "title": "Inception",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+      "imdbRating": "8.8",
       "type": "movie"
     },
     {
-      "id": "2b9a",
+      "id": "47ba",
+      "userId": "a4f4",
+      "movieId": "tt5295990",
+      "title": "Inception: Jump Right Into the Action",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZGFjOTRiYjgtYjEzMS00ZjQ2LTkzY2YtOGQ0NDI2NTVjOGFmXkEyXkFqcGdeQXVyNDQ5MDYzMTk@._V1_SX300.jpg",
+      "imdbRating": "8.6",
+      "type": "movie"
+    },
+    {
+      "id": "47cb",
+      "userId": "a4f4",
+      "movieId": "tt0468569",
+      "title": "The Dark Knight",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
+      "imdbRating": "9.0",
+      "type": "movie"
+    },
+    {
+      "id": "36a9",
+      "userId": "a4f4",
+      "movieId": "tt2257218",
+      "title": "The Dark Knight Retires",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTkxMDczOTM3OF5BMl5BanBnXkFtZTgwNTg1MzM4MDE@._V1_SX300.jpg",
+      "imdbRating": "4.6",
+      "type": "series"
+    },
+    {
+      "id": "d71d",
+      "userId": "a4f4",
+      "movieId": "tt0145487",
+      "title": "Spider-Man",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZWM0OWVmNTEtNWVkOS00MzgyLTkyMzgtMmE2ZTZiNjY4MmFiXkEyXkFqcGc@._V1_SX300.jpg",
+      "imdbRating": "7.4",
+      "type": "movie"
+    },
+    {
+      "id": "2f84",
+      "userId": "a4f4",
+      "movieId": "tt10872600",
+      "title": "Spider-Man: No Way Home",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmFiZGZjMmEtMTA0Ni00MzA2LTljMTYtZGI2MGJmZWYzZTQ2XkEyXkFqcGc@._V1_SX300.jpg",
+      "imdbRating": "8.2",
+      "type": "movie"
+    },
+    {
+      "id": "4d97",
+      "userId": "5702",
+      "movieId": "tt3032476",
+      "title": "Better Call Saul",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDdjNTEzMjMtYjM3Mi00NzQ3LWFlNWMtZjdmYWU3ZDkzMjk1XkEyXkFqcGc@._V1_SX300.jpg",
+      "imdbRating": "9.0",
+      "type": "series"
+    },
+    {
+      "id": "e5e2",
       "userId": "a4f4",
       "movieId": "tt0304141",
       "title": "Harry Potter and the Prisoner of Azkaban",
@@ -72,13 +126,292 @@
       "type": "movie"
     },
     {
-      "id": "1809",
+      "id": "b683",
+      "userId": "a05e",
+      "movieId": "tt0295297",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGJhM2M2MWYtZjIzMC00MDZmLThkY2EtOWViMDhhYjRhMzk4XkEyXkFqcGc@._V1_SX300.jpg",
+      "imdbRating": "7.4",
+      "type": "movie"
+    },
+    {
+      "id": "5db4",
+      "userId": "a4f4",
+      "movieId": "tt12074628",
+      "title": "Smiling Friends",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjkxOWUzNmEtZTMyMC00Y2Y2LTk2OGUtZjQzNTc0NDg2NGQ5XkEyXkFqcGc@._V1_SX300.jpg",
+      "imdbRating": "8.5",
+      "type": "series"
+    },
+    {
+      "id": "1ad8",
       "userId": "a4f4",
       "movieId": "tt0295297",
       "title": "Harry Potter and the Chamber of Secrets",
       "poster": "https://m.media-amazon.com/images/M/MV5BNGJhM2M2MWYtZjIzMC00MDZmLThkY2EtOWViMDhhYjRhMzk4XkEyXkFqcGc@._V1_SX300.jpg",
       "imdbRating": "7.4",
       "type": "movie"
+    },
+    {
+      "id": "35ad",
+      "userId": "5702",
+      "movieId": "tt0114717",
+      "title": "Trancers 5: Sudden Deth",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGYxY2ZhYWYtYzY5ZS00M2YzLWJkNjMtOGZjOTI1OWM1YjZkXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_SX300.jpg",
+      "imdbRating": "4.6",
+      "type": "movie"
+    },
+    {
+      "id": "1787",
+      "userId": "5702",
+      "movieId": "tt0105632",
+      "title": "Trancers 3: Deth Lives!",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNTI0Njk5NDQxMl5BMl5BanBnXkFtZTcwNzE0NTYzNQ@@._V1_SX300.jpg",
+      "imdbRating": "5.3",
+      "type": "movie"
+    },
+    {
+      "id": "7d84",
+      "userId": "a4f4",
+      "movieId": "tt15565872",
+      "title": "A Spy Among Friends",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZDY1MDAyNmItZWEwMi00OTQ2LTk3MGUtZTM5MDAwYmZmMWEwXkEyXkFqcGc@._V1_SX300.jpg",
+      "imdbRating": "7.2",
+      "type": "series"
+    }
+  ],
+  "purchases": [
+    {
+      "id": "c44e",
+      "movieId": "65c5",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_SX300.jpg",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "userId": "5702",
+      "username": "Yassine",
+      "email": "yy@yy.com",
+      "paymentMethod": "paypal",
+      "cardNumber": "",
+      "cardExpiry": "",
+      "cardCVC": "",
+      "paypalEmail": "kkk@dd.cm",
+      "date": "2025-03-08",
+      "time": "20:00",
+      "seats": [
+        "A5",
+        "C8"
+      ],
+      "totalPrice": 25.98
+    },
+    {
+      "id": "31d7",
+      "movieId": "47ba",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZGFjOTRiYjgtYjEzMS00ZjQ2LTkzY2YtOGQ0NDI2NTVjOGFmXkEyXkFqcGdeQXVyNDQ5MDYzMTk@._V1_SX300.jpg",
+      "title": "Inception: Jump Right Into the Action",
+      "type": "movie",
+      "userId": "a4f4",
+      "username": "Ali",
+      "email": "aa@aa.com",
+      "paymentMethod": "paypal",
+      "cardNumber": "",
+      "cardExpiry": "",
+      "cardCVC": "",
+      "paypalEmail": "kkk@dd.cm",
+      "date": "2025-03-21",
+      "time": "20:00",
+      "seats": [
+        "A8"
+      ],
+      "totalPrice": 12.99
+    },
+    {
+      "id": "1917",
+      "movieId": "9f3e",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTU2YmM5ZjctOGVlMC00YTczLTljM2MtYjhlNGI5YWMyZjFkXkEyXkFqcGc@._V1_SX300.jpg",
+      "title": "Friends",
+      "type": "series",
+      "userId": "a4f4",
+      "username": "Ali",
+      "email": "aa@aa.com",
+      "paymentMethod": "paypal",
+      "cardNumber": "",
+      "cardExpiry": "",
+      "cardCVC": "",
+      "paypalEmail": "kkk@dd.cm",
+      "date": "2025-03-08",
+      "time": "17:30",
+      "seats": [
+        "A4"
+      ],
+      "totalPrice": 12.99
+    },
+    {
+      "id": "81e2",
+      "movieId": "4d97",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDdjNTEzMjMtYjM3Mi00NzQ3LWFlNWMtZjdmYWU3ZDkzMjk1XkEyXkFqcGc@._V1_SX300.jpg",
+      "title": "Better Call Saul",
+      "type": "series",
+      "userId": "5702",
+      "username": "Yassine",
+      "email": "yy@yy.com",
+      "paymentMethod": "paypal",
+      "cardNumber": "",
+      "cardExpiry": "",
+      "cardCVC": "",
+      "paypalEmail": "kkk@dd.cm",
+      "date": "2025-03-26",
+      "time": "17:30",
+      "seats": [
+        "B7"
+      ],
+      "totalPrice": 12.99
+    },
+    {
+      "id": "8700",
+      "movieId": "35ad",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGYxY2ZhYWYtYzY5ZS00M2YzLWJkNjMtOGZjOTI1OWM1YjZkXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_SX300.jpg",
+      "title": "Trancers 5: Sudden Deth",
+      "type": "movie",
+      "userId": "5702",
+      "username": "Yassine",
+      "email": "yy@yy.com",
+      "paymentMethod": "paypal",
+      "cardNumber": "",
+      "cardExpiry": "",
+      "cardCVC": "",
+      "paypalEmail": "kkk@dd.cm",
+      "date": "2025-02-28",
+      "time": "15:00",
+      "seats": [
+        "B6"
+      ],
+      "totalPrice": 12.99
+    },
+    {
+      "id": "d77a",
+      "movieId": "ee97",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTA1Mzc2N2ItZWRiNS00MjQzLTlmZDQtMjU0NmY1YWRkMGQ4XkEyXkFqcGc@._V1_SX300.jpg",
+      "title": "Harry Potter and the Deathly Hallows: Part 2",
+      "type": "movie",
+      "userId": "5702",
+      "username": "Yassine",
+      "email": "yy@yy.com",
+      "paymentMethod": "paypal",
+      "cardNumber": "",
+      "cardExpiry": "",
+      "cardCVC": "",
+      "paypalEmail": "kkk@dd.cm",
+      "date": "2025-03-20",
+      "time": "17:30",
+      "seats": [
+        "B8"
+      ],
+      "totalPrice": 12.99
+    },
+    {
+      "id": "9643",
+      "movieId": "7d84",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZDY1MDAyNmItZWEwMi00OTQ2LTk3MGUtZTM5MDAwYmZmMWEwXkEyXkFqcGc@._V1_SX300.jpg",
+      "title": "A Spy Among Friends",
+      "type": "series",
+      "userId": "a4f4",
+      "username": "Ali",
+      "email": "aa@aa.com",
+      "paymentMethod": "paypal",
+      "cardNumber": "",
+      "cardExpiry": "",
+      "cardCVC": "",
+      "paypalEmail": "kkk@dd.cm",
+      "date": "2025-03-22",
+      "time": "17:30",
+      "seats": [
+        "A8"
+      ],
+      "totalPrice": 12.99
+    },
+    {
+      "id": "09e4",
+      "movieId": "2f84",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmFiZGZjMmEtMTA0Ni00MzA2LTljMTYtZGI2MGJmZWYzZTQ2XkEyXkFqcGc@._V1_SX300.jpg",
+      "title": "Spider-Man: No Way Home",
+      "type": "movie",
+      "userId": "a4f4",
+      "username": "Ali",
+      "email": "aa@aa.com",
+      "paymentMethod": "paypal",
+      "cardNumber": "",
+      "cardExpiry": "",
+      "cardCVC": "",
+      "paypalEmail": "kkk@dd.cm",
+      "date": "2025-03-14",
+      "time": "15:00",
+      "seats": [
+        "A3",
+        "A6"
+      ],
+      "totalPrice": 25.98
+    },
+    {
+      "id": "50b9",
+      "movieId": "2f84",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmFiZGZjMmEtMTA0Ni00MzA2LTljMTYtZGI2MGJmZWYzZTQ2XkEyXkFqcGc@._V1_SX300.jpg",
+      "title": "Spider-Man: No Way Home",
+      "type": "movie",
+      "userId": "a4f4",
+      "username": "Ali",
+      "email": "aa@aa.com",
+      "paymentMethod": "paypal",
+      "cardNumber": "",
+      "cardExpiry": "",
+      "cardCVC": "",
+      "paypalEmail": "kkk@dd.cm",
+      "date": "2025-03-27",
+      "time": "17:30",
+      "seats": [
+        "A5"
+      ],
+      "totalPrice": 12.99
+    },
+    {
+      "id": "f4d8",
+      "movieId": "47cb",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
+      "title": "The Dark Knight",
+      "type": "movie",
+      "userId": "a4f4",
+      "username": "Ali",
+      "email": "aa@aa.com",
+      "paymentMethod": "paypal",
+      "cardNumber": "",
+      "cardExpiry": "",
+      "cardCVC": "",
+      "paypalEmail": "kkk@dd.cm",
+      "date": "2025-03-21",
+      "time": "15:00",
+      "seats": [
+        "A5"
+      ],
+      "totalPrice": 12.99
+    },
+    {
+      "id": "2c5a",
+      "movieId": "47cb",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
+      "title": "The Dark Knight",
+      "type": "movie",
+      "userId": "a4f4",
+      "username": "Ali",
+      "email": "aa@aa.com",
+      "paymentMethod": "paypal",
+      "cardNumber": "",
+      "cardExpiry": "",
+      "cardCVC": "",
+      "paypalEmail": "kkk@dd.cm",
+      "date": "2025-03-21",
+      "time": "15:00",
+      "seats": [
+        "A5"
+      ],
+      "totalPrice": 12.99
     }
   ]
 }

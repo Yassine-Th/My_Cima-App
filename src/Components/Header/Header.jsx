@@ -42,7 +42,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="logo">
-        <a href={"/"}>Movie App</a>
+        <a href={"/"}>My Cima</a>
       </div>
 
       <div className="search-bar">

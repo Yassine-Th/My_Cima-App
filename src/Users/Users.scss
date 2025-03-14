@@ -61,16 +61,23 @@ button {
     }
   }
 
-  &:nth-child(2) { /* Delete */
-    background: #e74c3c;
-    color: #fff;
+  // &:nth-child(2) { /* Delete */
+  // //   background: #e74c3c;
+  // //   color: #fff;
 
-    &:hover {
-      background: #c0392b;
-    }
-  }
+  //   &:hover {
+  //     background: #c0392b;
+  //   }
+  // }
 
  
+}
+.del{
+   background: #e74c3c;
+   color: #fff;
+}
+.del:hover{
+  background: #c0392b;
 }
 
 /* Responsive Design */

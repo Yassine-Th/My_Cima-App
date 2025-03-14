@@ -3,10 +3,12 @@ import "./watchlist.scss";
 import axios from "axios";
 import Slider from "react-slick";
 import { watchlistSettings } from "./WatchsliderSetting";
+import { useNavigate } from "react-router-dom";
 
 const WatchList = () => {
   const [watchlist, setWatchlist] = useState([]);
   const [user, setUser] = useState(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const storedUser = JSON.parse(localStorage.getItem("user_boutique"));
@@ -40,8 +42,10 @@ const WatchList = () => {
       alert("Failed to delete movie.");
     }
   };
-  console.log(watchlist);
-  
+
+  const handleBuy = (movieId) => {
+    navigate(`/buy/${movieId}`);
+  };
 
   const WatchlistItem = ({ movie }) => (
     <div className="watchlist-item">
@@ -51,12 +55,16 @@ const WatchList = () => {
           <h4 className="movie-title">{movie.title}</h4>
           <p className="imdb-rating">⭐ {movie.imdbRating}</p>
         </div>
+        <button onClick={() => handleBuy(movie.id)} className="buy-button">
+          Buy Movie               
+        </button>
         <button
           onClick={() => deleteFromWatchlist(movie.id)}
           className="delete-button"
         >
           Remove
         </button>
+        
       </div>
     </div>
   );
@@ -66,7 +74,7 @@ const WatchList = () => {
 
   return (
     <div className="watchlist-section">
-      <h2 className="watchlist-title">My Watchlist</h2>
+      {/* <h2 className="watchlist-title">My Watchlist</h2> */}
 
       {movies.length > 0 && (
         <div className="watchlist-category">

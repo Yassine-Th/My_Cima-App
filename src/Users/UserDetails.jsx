@@ -27,7 +27,7 @@ const UserDetail = () => {
     const fetchWatchlist = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:3001/watchlist?userId=${id}`
+          `http://localhost:3001/purchases?userId=${id}`
         );
         setWatchlist(response.data);
       } catch (error) {
@@ -38,7 +38,8 @@ const UserDetail = () => {
     fetchUser();
     fetchWatchlist();
   }, [id]);
-
+ console.log(watchlist);
+ 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setUser((prevUser) => ({
@@ -147,7 +148,7 @@ const UserDetail = () => {
               <tr>
                 <th>Poster</th>
                 <th>Title</th>
-                <th>Type</th>
+                <th>Rate</th>
                 <th>Actions</th>
               </tr>
             </thead>
@@ -158,7 +159,7 @@ const UserDetail = () => {
                     <img src={item.poster} alt={item.title} />
                   </td>
                   <td>{item.title}</td>
-                  <td>{item.type}</td>
+                  <td>{item.imdbRating}</td>
                   <td>
                     <button
                       onClick={() => handleDelete(item.id)}

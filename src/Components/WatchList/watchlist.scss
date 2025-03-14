@@ -8,41 +8,44 @@
 }
 
 .watchlist-title {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .watchlist-category {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .watchlist-item {
   background: $secondary-color;
-  padding: 12px;
-  border-radius: 10px;
+  padding: 15px;
+  border-radius: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s ease-in-out;
-  margin: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  margin: 15px;
 }
 
 .watchlist-item:hover {
-  transform: scale(1.05);
+  transform: scale(1.08);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .watchlist-poster {
   width: 100%;
-  max-height: 250px;
+  max-height: 270px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 .watchlist-info {
-  padding: 10px;
+  padding: 12px;
   width: 100%;
 }
 
@@ -50,41 +53,64 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .movie-title {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   color: $font-secondary;
   flex: 1;
   text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .imdb-rating {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   color: gold;
   text-align: right;
 }
 
+.buy-button, .delete-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  // text-transform: uppercase;
+  margin-top: 8px;
+}
+
+.buy-button {
+  background: green;
+  color: $font-primary;
+  margin-bottom: 5px;
+}
+
+.buy-button:hover {
+  background: darkgreen;
+  transform: scale(1.05);
+}
+
 .delete-button {
   background: red;
   color: $font-primary;
-  padding: 8px 12px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background 0.3s;
-  width: 100%;
 }
 
 .delete-button:hover {
   background: darkred;
+  transform: scale(1.05);
 }
 
 .empty-message {
-  font-size: 18px;
+  font-size: 20px;
   color: lighten($font-primary, 40%);
-  margin-top: 20px;
+  margin-top: 25px;
+  font-style: italic;
 }
